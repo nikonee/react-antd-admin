@@ -56,7 +56,6 @@ const GlobalHeaderRight = props => {
         </a>
       </Tooltip>
       <NoticeIconView />
-      <NoticeIconView />
       <Avatar menu />
       <SelectLang className={styles.action} />
     </div>
