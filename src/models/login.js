@@ -1,5 +1,6 @@
 import { parse, stringify } from 'qs';
 import { routerRedux } from 'dva/router';
+
 export function getPageQuery() {
   return parse(window.location.href.split('?')[1]);
 }

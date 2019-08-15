@@ -5,8 +5,8 @@ export default {
     'list|100': [
       {
         name: '@city',
-        'value|1-100': 150,
-        'type|0-2': 1,
+        'value|1-100': 1024,
+        'type|0-2': 1024,
       },
     ],
   }),

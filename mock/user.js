@@ -2,13 +2,13 @@
 export default {
   // 支持值为 Object 和 Array
   'GET /api/currentUser': {
-    name: 'Serati Ma',
-    avatar: 'https://gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png',
+    name: '阳明先生',
+    avatar: 'https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=c37cc083ad014c08193b2fa332406535/574e9258d109b3deb6daa942c8bf6c81800a4cb6.jpg',
     userid: '00000001',
-    email: 'antdesign@alipay.com',
-    signature: '海纳百川，有容乃大',
-    title: '交互专家',
-    group: '蚂蚁金服－某某某事业群－某某平台部－某某技术部－UED',
+    email: 'wangshouren@ming.com',
+    signature: '此心光明 亦复何言',
+    title: '知行合一',
+    group: '心学',
     tags: [
       {
         key: '0',
@@ -75,7 +75,7 @@ export default {
   'POST /api/login/account': (req, res) => {
     const { password, userName, type } = req.body;
 
-    if (password === 'ant.design' && userName === 'admin') {
+    if (userName === 'admin' && password === 'ant.design') {
       res.send({
         status: 'ok',
         type,
@@ -84,7 +84,7 @@ export default {
       return;
     }
 
-    if (password === 'ant.design' && userName === 'user') {
+    if (userName === 'user' && password === 'ant.design') {
       res.send({
         status: 'ok',
         type,

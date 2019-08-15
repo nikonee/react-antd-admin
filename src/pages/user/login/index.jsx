@@ -2,6 +2,7 @@ import { Alert, Checkbox, Icon } from 'antd';
 import { FormattedMessage, formatMessage } from 'umi-plugin-react/locale';
 import React, { Component } from 'react';
 import Link from 'umi/link';
+import router from 'umi/router';
 import { connect } from 'dva';
 import LoginComponents from './components/Login';
 import styles from './style.less';
@@ -30,6 +31,8 @@ class Login extends Component {
     const { type } = this.state;
 
     if (!err) {
+      router.push('/dashboard/analysis');
+
       const { dispatch } = this.props;
       dispatch({
         type: 'userLogin/login',
