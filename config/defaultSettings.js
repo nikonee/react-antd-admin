@@ -5,7 +5,7 @@ export default {
   contentWidth: 'Fluid',
   fixedHeader: true,
   autoHideHeader: true,
-  fixSiderbar: false,
+  fixSiderbar: true,
   colorWeak: false,
   menu: {
     locale: true,
