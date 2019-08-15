@@ -10,7 +10,7 @@ export default {
   menu: {
     locale: true,
   },
-  title: 'Ant Design Pro',
+  title: '知行合一',
   pwa: false,
   iconfontUrl: '',
 };

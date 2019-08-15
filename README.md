@@ -1,3 +1,3 @@
 # react-admin
 
-### A react admin demo based on Ant Design Pro
+### A react admin demo based on ant-design pro.
