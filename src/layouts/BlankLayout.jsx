@@ -7,7 +7,6 @@ const Layout = ({ children }) => (
       <div>{children}</div>
       <CopyBlock id={Date.now()} />
     </>
-    <CopyBlock id={Date.now()} />
   </>
 );
 
